@@ -1,4 +1,4 @@
-# La tiendona   
+# La femme   
 
 _Proyecto académico realizado en la materia de Teoria de Lueguajes de Programación en la UACJ(CU) el cual tiene como objetivo realizar un CRUD el cual se le dió un enfoque personal hacia una tienda en específico para que pueda administrar sus ventas y que tenga un sistemas de inventario práctico, en línea y gratuito._
 
