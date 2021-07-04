@@ -1,230 +1,106 @@
-#head{
-    height: 20%;
-    width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#logo1{
-    height: 15%;
-    width: 25%;
-    position: absolute;
-    top:2%;
-    left:2%;
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#sentenceContainer{
-    background-attachment: fixed;
-    background-color: #000;
-    height:16%;
-    width: 72%;
-    position: absolute;
-    top:-2%;
-    left: 28%;
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
 }
-#sentence{
-    position: absolute;
-    top: 5%;
-    left: 12%;  
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 190%;
-    color: #fff;
-}
-#menu{
-    background-attachment: fixed;
-    background-color: #000;
-    position: absolute;
-    top: 14.5%;
-    left: 0%;
-    height: 10%;
-    width: 100%;
-}
-.selectors{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 160%;
-    color: #fff;
-}
-#categories{
-    height: 100%;
-    width: 10%;
-    border-radius: 4px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    text-align: center;
-}
-#ubication{
-    height: 100%;
-    width: 10%;
-    border-radius: 4px;
-    position: absolute;
-    top: 0%;
-    left: 10%;
-    text-align: center;
-}
-#contact{
-    height: 100%;
-    width: 10%;
-    border-radius: 4px;
-    position: absolute;
-    top: 0%;
-    left: 20%;
-    text-align: center;
-}
-#aboutUs{
-    height: 100%;
-    width: 15%;
-    border-radius: 4px;
-    position: absolute;
-    top: 0%;
-    left: 30%;
-    text-align: center;
-}
-#misionVision{
-    height: 100%;
-    width: 15%;
-    border-radius: 4px;
-    position: absolute;
-    top: 0%;
-    left: 45%;
-    text-align: center;
-}
-#contact:hover, #categories:hover, #ubication:hover, #aboutUs:hover, #misionVision:hover{
-    background-color: rgba(161, 161, 161, 0.333);
-}
-#browserConteiner{
-    height: 100%;
-    width: 40%;
-    border-radius: 4px;
-    position: absolute;
-    top: 0%;
-    left: 60%;
-}
-#browser{
-    height: 100%;
-    width: 20%;
-    border-radius: 2px;
-    position: absolute;
-    top: 22%;
-    left: 10%;
-}
-#search{
-    color:#000;
-}
-#search::placeholder{
-    color: rgb(99, 97, 97);
-}
-#lens{
-    height: 80%;
-    width: 10%;
-    position: absolute;
-    top: 12%;
-    left: 75%;
-}
-.carrusel{
-    width: 30%;
-    height: 70%;
-    background-color: #000;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-}
-ul, li{
-    list-style: none;
-    padding: 0;
-    margin: 0%;
-}
-ul.slider{
-    position: relative;
-    width: 60%;
-    height: 100%;
 
+li {
+  float: left;
 }
-ul.slider li{
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    opacity: 0;
-    transition: opacity .5s;    
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-ul.slider img{
-    width: 225%;
-    height: inherit;
-    position: relative;
-    left: 30%;
+
+li a:hover {
+  background-color: #333;
 }
-ul.slider li:first-child{
-    opacity: 1;
+nav input {
+  font-size: 20px;
+  padding: 4px;
+  outline: none;
+  margin: 8px;
 }
-.numbers li a{
-    color:#fff;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #000;
-    font-size: 200%;
-    border-radius: 100%;
-    width: 250%;
-    height: 30%;
-    text-align: center;
+.navbar {
+  clear: left;
 }
-.numbers li a:hover{
-    background-color: rgba(29, 29, 29, 0.333);
+.nav-logo {
+  height: 100px;
 }
-#sl1{
-    position: absolute;
-    top: 100%;
-    left: 25%;
+.nav-logo img {
+  height: 100%;
+  width: auto;
+  display: block;
 }
-#sl2{
-    position: absolute;
-    top: 100%;
-    left: 45%;
+header {
+  background-color: #000;
+  color: #fff;
 }
-#sl3{
-    position: absolute;
-    top: 100%;
-    left: 65%;
+.header-title div {
+  float: left;
+  font-size: 30px;
+  text-align: right;
 }
-ul.slider li:target{
-    opacity: 1;
+.nav-text {
+  float: right !important;
+  width: 60%;
+  padding: 14px 12px;
 }
-#footer{
-    height: 20%;
-    width: 100%;
-    position: absolute;
-    top: 150%;
-    right: 0%;
-    border-top-color: #000;
+li img {
+  height: 20px;
 }
-#contactUs{
-    position: absolute;
-    top: 40%;
-    left: 2%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100%;
-    color: #000;
+.carousel {
+  width: 30%;
+  height: 450px;
+  background-color: #000;
+  margin: 12px auto;
 }
-#instagram{
-    height: 47%;
-    width: 4.5%;
-    position: absolute;
-    top: 25%;
-    left: 15%;
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0%;
 }
-#facebook{
-    height: 50%;
-    width: 5%;
-    position: absolute;
-    top: 25%;
-    left: 25%;
+ul.slider {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: auto;
 }
-#whatsapp{
-    height: 56%;
-    width: 7.5%;
-    position: absolute;
-    top: 25%;
-    left: 35%;
+ul.slider li {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
-#logo2{
-    height: 100%;
-    width: 13%;
-    position: absolute;
-    top: 10%;
-    left: 86%;
+ul.slider img {
+  object-fit: cover;
+  height: inherit;
+}
+ul.slider li:first-child {
+  opacity: 1;
+}
+ul.numbers {
+  margin: auto;
+  display: block;
+}
+ul.slider li:target {
+  opacity: 1;
 }
