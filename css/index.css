@@ -20,7 +20,7 @@ li {
   float: left;
 }
 
-li a {
+li.nav-item a {
   display: block;
   color: #fff;
   text-align: center;
@@ -28,8 +28,8 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #333;
+li.nav-item a:hover {
+  background-color: #555;
 }
 nav input {
   font-size: 20px;
@@ -101,6 +101,58 @@ ul.numbers {
   margin: auto;
   display: block;
 }
+ul.numbers li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 64px;
+}
+ul.numbers li a:hover {
+  background-color: #555;
+}
 ul.slider li:target {
   opacity: 1;
+}
+.promotions {
+  border-top: 4px solid #000;
+  background-color: red;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 50px;
+}
+.promotions li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+ul.promotions li img {
+  height: 180px;
+}
+ul.promotions li p {
+  margin-top: 70px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-us {
+  background-color: #000;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.contact-us li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.contact-us li p {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+.contact-us li img {
+  height: 50px;
 }
