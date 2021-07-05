@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+li.nav-item a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.nav-item a:hover {
+  background-color: #555;
+}
+nav input {
+  font-size: 20px;
+  padding: 4px;
+  outline: none;
+  margin: 8px;
+}
+.navbar {
+  clear: left;
+}
+.nav-logo {
+  height: 100px;
+}
+.nav-logo img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+header {
+  background-color: #000;
+  color: #fff;
+}
+.header-title div {
+  float: left;
+  font-size: 30px;
+  text-align: right;
+}
+.nav-text {
+  float: right !important;
+  width: 60%;
+  padding: 14px 12px;
+}
+li img {
+  height: 20px;
+}
+#categories {
+  background-color: #555;
+}
+dl.categories {
+  margin: auto;
+  margin-top: 20px;
+  background-color: #000;
+  height: 385px;
+  width: 20%;
+  border-radius: 16px;
+}
+dl.categories dd {
+  margin-left: 20px;
+  margin-top: 0px;
+  padding: 10px;
+}
+#void {
+  color: #000;
+}
+dl.categories dd a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+dd:hover {
+  background-color: #555;
+  border-radius: 16px;
+}
+#void:hover {
+  background-color: #000;
+  border-radius: 16px;
+}
