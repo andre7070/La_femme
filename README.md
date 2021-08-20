@@ -33,6 +33,8 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [HTML](https://html.com/) - Lenguaje de Marcas de Hipertexto
 * [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Hojas de estilo en cascada
 * [JAVASCRIPT](https://developer.mozilla.org/es/docs/Web/JavaScript) - Lenguaje de programación interpretado
+* [PHP](https://www.php.net/) - Hypertext Preprocessor 
+* [XAMMP/Apache](https://www.apachefriends.org/es/index.html) - Apache, MariaDB/MySQL, PHP, Perl.
 * [GitHub Pages]( https://andre7070.github.io/La_femme/) - Hosting web
 
 ## Autor ✒️
